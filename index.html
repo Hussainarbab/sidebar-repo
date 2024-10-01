@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Sidebar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div id="mySidebar" class="sidebar">
+        <div class="profile">
+            <img src="./j-removebg-preview.png" alt="Your Name" class="profile-img">
+            <h2>Hussain Arbab</h2>
+        </div>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#"><i class="fas fa-home"></i> Home</a>
+        <a href="#"><i class="fas fa-user"></i> About Me</a>
+        <a href="#"><i class="fas fa-briefcase"></i> Projects</a>
+        <a href="#"><i class="fas fa-laptop-code"></i> Skills</a>
+        <a href="#"><i class="fas fa-envelope"></i> Contact</a>
+    </div>
+
+    <!-- Main content -->
+    <div id="main" class="bg-[#333]">
+        <button class="openbtn" onclick="openNav()">☰Sidebar</button>  
+    </div>
+   
+
+    <script src="app.js"></script>
+</body>
+</html>
